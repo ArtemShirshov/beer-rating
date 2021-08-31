@@ -9,7 +9,7 @@ import {
   Select,
   TextField,
 } from '@material-ui/core';
-import { Clear } from '@material-ui/icons';
+import ClearIcon from '@material-ui/icons/Clear';
 
 import { SORTING } from './BeerItems.constats';
 import { Item } from './Item/Item';
@@ -58,7 +58,7 @@ export const BeerItemsView = ({
           </Grid>
 
           <Grid item>
-            <Button onClick={onClearSorting} startIcon={<Clear />}>
+            <Button onClick={onClearSorting} startIcon={<ClearIcon />}>
               Очистить
             </Button>
           </Grid>
