@@ -14,6 +14,7 @@ import ClearIcon from '@material-ui/icons/Clear';
 import { SORTING } from './BeerItems.constats';
 import { Item } from './Item/Item';
 import { useStyles } from './BeerItems.styles';
+import { EmptyList } from './EmptyList/EmptyList';
 
 export const BeerItemsView = ({
   handleChange,
@@ -67,21 +68,25 @@ export const BeerItemsView = ({
 
       <Box mb={4}>
         <Grid alignItems="stretch" container spacing={4}>
-          {sortData.map((item) => (
-            <Grid
-              item
-              key={item.title}
-              lg={3}
-              md={4}
-              sm={6}
-              style={{
-                display: 'flex',
-              }}
-              xs={12}
-            >
-              <Item data={item} />
-            </Grid>
-          ))}
+          {sortData.length > 0 ? (
+            sortData.map((item) => (
+              <Grid
+                item
+                key={item.title}
+                lg={3}
+                md={4}
+                sm={6}
+                style={{
+                  display: 'flex',
+                }}
+                xs={12}
+              >
+                <Item data={item} />
+              </Grid>
+            ))
+          ) : (
+            <EmptyList />
+          )}
         </Grid>
       </Box>
     </>
