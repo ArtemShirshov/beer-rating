@@ -55,7 +55,7 @@ export const Item = ({
           Крепость: {fortress}%
         </Typography>
         <Typography color="textSecondary" component="p" variant="body2">
-          Объем: {volume}мл
+          Объем: {volume}&nbsp;мл
         </Typography>
         <Typography color="textSecondary" component="p" variant="body2">
           Регион: {region.country}
