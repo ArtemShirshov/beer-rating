@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+::selection {
+  background: #fbcf4c;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+::-webkit-scrollbar:vertical {
+  width: 4px;
+}
+::-webkit-scrollbar:horizontal {
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  width: 2px;
+  background: #fbcf4c;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #edb248;
+}
+::-webkit-scrollbar-track {
+  background: #f7eeba;
+}
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #434343 #f0f0f0;
+}
