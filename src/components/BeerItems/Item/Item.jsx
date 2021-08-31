@@ -5,6 +5,8 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 
+import { arrayToString } from 'utils/ArrayToString';
+
 import { useStyles } from './Item.styles';
 import { Rating } from './Rating/Rating';
 import { PropertyRating } from './PropertyRating/PropertyRating';
@@ -27,9 +29,8 @@ export const Item = ({
 
   const preparedDescription = useMemo(() => {
     const descriptionArray = description.map((item) => descriptionEnum[item]);
-    const descriptionString = descriptionArray.toString().replace(',', ', ');
 
-    return descriptionString[0].toUpperCase() + descriptionString.slice(1);
+    return arrayToString(descriptionArray, true);
   }, [description]);
 
   return (
@@ -83,8 +84,7 @@ export const Item = ({
           <b>Объем:</b> {volume}&nbsp;мл
         </Typography>
         <Typography color="textSecondary" component="p" variant="body2">
-          <b>Регион:</b> {region.country}
-          {region.city ? `, ${region.city}` : null}
+          <b>Регион:</b> {arrayToString([region.country, region.city])}
         </Typography>
       </CardContent>
     </Card>
