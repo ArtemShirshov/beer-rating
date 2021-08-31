@@ -58,7 +58,7 @@ export const BeerItemsView = ({
           </Grid>
 
           <Grid item>
-            <Button startIcon={<Clear />} onClick={onClearSorting}>
+            <Button onClick={onClearSorting} startIcon={<Clear />}>
               Очистить
             </Button>
           </Grid>
