@@ -5,6 +5,10 @@ export const useStyles = makeStyles({
     height: 60,
     lineHeight: '60px',
   },
+  wrapper: {
+    cursor: 'pointer',
+    userSelect: 'none',
+  },
   icon: {
     marginRight: 8,
     top: 4,
