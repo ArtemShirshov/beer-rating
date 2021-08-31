@@ -1,0 +1,74 @@
+{
+  "items": [
+    {
+      "title": "EKSTRA 1784",
+      "img": "ekstra.jpeg",
+      "description": "Светлое, Фильтрованное",
+      "region": {
+        "city": "Клайпеда",
+        "country": "Литва"
+      },
+      "fortress": "5.2",
+      "volume": "568",
+      "note": "Легкое мягкое пиво, с незначительной горчинкой. На утро голова от него не тяжелая. Легкое похмелье.",
+      "rating": "7.5",
+      "property": [
+        {
+          "bitterness": {
+            "value": "true",
+            "level": "easy"
+          }
+        },
+        {
+          "hangover": {
+            "value": "true",
+            "level": "easy"
+          }
+        },
+        {
+          "lightness": {
+            "value": "true",
+            "level": "easy"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Weltenburger Kloster, Anno 1050",
+      "img": "weltenburgerKloster.jpeg",
+      "description": "Светлое, Фильтрованное",
+      "region": {
+        "city": "Бавария",
+        "country": "Германия"
+      },
+      "fortress": "5.5",
+      "volume": "500",
+      "note": "Лучшее пиво, которое я пил. Легкое, без горчинки. Полное отсуствие похмелья.",
+      "rating": "10"
+    },
+    {
+      "title": "Franziskaner Hefe-Weissbier",
+      "img": "benediktinerWeissbier.jpeg",
+      "description": "Светлое, Нефильтрованное",
+      "region": {
+        "country": "Германия"
+      },
+      "fortress": "5.4",
+      "volume": "500",
+      "note": "Горькое тяжелое. Сильное похмелье.",
+      "rating": "4"
+    },
+    {
+      "title": "Corona Extra",
+      "img": "coronaExtra.jpeg",
+      "description": "Светлое, Фильтрованное",
+      "region": {
+        "country": "Мексика"
+      },
+      "fortress": "4.5",
+      "volume": "330",
+      "note": "Пиво на каждый день. Легкое, без горчинки. Полное отсуствие похмелья.",
+      "rating": "9.5"
+    }
+  ]
+}

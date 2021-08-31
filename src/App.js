@@ -1,23 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
 
+import React from 'react';
+import { Grid, Container } from '@material-ui/core';
+
+import { Item } from './components/Item/Item';
+import { Header } from './components/Header/Header';
+import data from './data.json';
+
 function App() {
+  const sortData = data.items.sort((a, b) => {
+    return b.rating - a.rating;
+  });
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Container>
+        <Header />
+        <Grid container spacing={2} alignItems="stretch">
+          {sortData.map((item) => (
+            <Grid item key={item.title} style={{ display: 'flex' }}>
+              <Item data={item} />
+            </Grid>
+          ))}
+        </Grid>
+      </Container>
     </div>
   );
 }
