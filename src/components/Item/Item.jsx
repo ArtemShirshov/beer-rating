@@ -60,7 +60,8 @@ export const Item = ({
             Объем: {volume}мл
           </Typography>
           <Typography color="textSecondary" component="p" variant="body2">
-            Регион: {region.country}, {region.city}
+            Регион: {region.country}
+            {region.city ? `, ${region.city}` : null}
           </Typography>
         </CardContent>
       </CardActionArea>
