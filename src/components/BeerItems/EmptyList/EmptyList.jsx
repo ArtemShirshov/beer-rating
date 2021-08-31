@@ -1,6 +1,6 @@
 import React from 'react';
 import { BeerColor } from 'Icons';
-import { Typography, Box } from '@material-ui/core';
+import { Box, Typography } from '@material-ui/core';
 
 import { useStyles } from './EmptyList.styles';
 

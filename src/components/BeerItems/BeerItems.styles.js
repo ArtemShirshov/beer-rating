@@ -8,4 +8,10 @@ export const useStyles = makeStyles((theme) => ({
   selectEmpty: {
     marginTop: theme.spacing(2),
   },
+  counter: {
+    width: 100,
+  },
+  item: {
+    display: 'flex',
+  },
 }));

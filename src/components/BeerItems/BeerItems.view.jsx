@@ -10,6 +10,9 @@ import {
   TextField,
 } from '@material-ui/core';
 import ClearIcon from '@material-ui/icons/Clear';
+import Chip from '@material-ui/core/Chip';
+
+import { declOfNum } from 'utils/DeclOfNum';
 
 import { SORTING } from './BeerItems.constats';
 import { Item } from './Item/Item';
@@ -63,6 +66,13 @@ export const BeerItemsView = ({
               Очистить
             </Button>
           </Grid>
+
+          <Grid item>
+            <Chip
+              className={classes.counter}
+              label={`${sortData.length} ${declOfNum(sortData.length)}`}
+            />
+          </Grid>
         </Grid>
       </Box>
 
@@ -71,14 +81,12 @@ export const BeerItemsView = ({
           {sortData.length > 0 ? (
             sortData.map((item) => (
               <Grid
+                className={classes.item}
                 item
                 key={item.title}
                 lg={3}
                 md={4}
                 sm={6}
-                style={{
-                  display: 'flex',
-                }}
                 xs={12}
               >
                 <Item data={item} />
