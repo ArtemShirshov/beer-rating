@@ -6,6 +6,6 @@ export const useStyles = makeStyles({
     boxShadow: '0 4px 15px rgba(0, 0, 0, .15)',
   },
   media: {
-    height: 140,
+    height: 200,
   },
 });
