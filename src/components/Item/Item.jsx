@@ -23,43 +23,43 @@ export const Item = ({
         />
 
         <CardContent>
-          <Typography variant="h5" component="h2">
+          <Typography component="h2" variant="h5">
             {title}
           </Typography>
           <Typography
-            gutterBottom
-            variant="body2"
             color="textSecondary"
             component="p"
+            gutterBottom
+            variant="body2"
           >
             {description}
           </Typography>
 
           <Rating value={Math.trunc(rating)} />
           <Typography
-            gutterBottom
-            variant="body2"
             color="textSecondary"
             component="p"
+            gutterBottom
+            variant="body2"
           >
             Баллы: {rating}
           </Typography>
 
           <Typography
-            gutterBottom
-            variant="body2"
             color="textSecondary"
             component="p"
+            gutterBottom
+            variant="body2"
           >
             {note}
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
+          <Typography color="textSecondary" component="p" variant="body2">
             Крепость: {fortress}%
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
+          <Typography color="textSecondary" component="p" variant="body2">
             Объем: {volume}мл
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
+          <Typography color="textSecondary" component="p" variant="body2">
             Регион: {region.country}, {region.city}
           </Typography>
         </CardContent>
