@@ -7,7 +7,7 @@
 {
   "title": "Название",
   "img": "Изображение",
-  "description": "Описание",
+  "description": ["FILTERED", "LIGHT", "DARK", "UNFILTERED"],
   "region": {
     "city": "Город",
     "country": "Страна"

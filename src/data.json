@@ -3,7 +3,7 @@
     {
       "title": "EKSTRA 1784",
       "img": "ekstra.jpeg",
-      "description": "Светлое, Фильтрованное",
+      "description": ["LIGHT","FILTERED"],
       "region": {
         "city": "Клайпеда",
         "country": "Литва"
@@ -30,7 +30,7 @@
     {
       "title": "Weltenburger Kloster, Anno 1050",
       "img": "weltenburgerKloster.jpeg",
-      "description": "Светлое, Фильтрованное",
+      "description": ["LIGHT","FILTERED"],
       "region": {
         "city": "Бавария",
         "country": "Германия"
@@ -57,7 +57,7 @@
     {
       "title": "Franziskaner Hefe-Weissbier",
       "img": "benediktinerWeissbier.jpeg",
-      "description": "Светлое, Нефильтрованное",
+      "description": ["LIGHT", "UNFILTERED"],
       "region": {
         "country": "Германия"
       },
@@ -83,7 +83,7 @@
     {
       "title": "Corona Extra",
       "img": "coronaExtra.jpeg",
-      "description": "Светлое, Фильтрованное",
+      "description": ["LIGHT","FILTERED"],
       "region": {
         "country": "Мексика"
       },

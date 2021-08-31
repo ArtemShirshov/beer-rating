@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
@@ -8,6 +8,7 @@ import Box from '@material-ui/core/Box';
 import { useStyles } from './Item.styles';
 import { Rating } from './Rating/Rating';
 import { PropertyRating } from './PropertyRating/PropertyRating';
+import { descriptionEnum } from './Item.constants';
 
 export const Item = ({
   data: {
@@ -23,6 +24,13 @@ export const Item = ({
   },
 }) => {
   const classes = useStyles();
+
+  const preparedDescription = useMemo(() => {
+    const descriptionArray = description.map((item) => descriptionEnum[item]);
+    const descriptionString = descriptionArray.toString().replace(',', ', ');
+
+    return descriptionString[0].toUpperCase() + descriptionString.slice(1);
+  }, [description]);
 
   return (
     <Card className={classes.root}>
@@ -42,7 +50,7 @@ export const Item = ({
           gutterBottom
           variant="body2"
         >
-          {description}
+          {preparedDescription}
         </Typography>
 
         <Box mb={2}>
