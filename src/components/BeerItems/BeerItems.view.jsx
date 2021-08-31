@@ -71,9 +71,13 @@ export const BeerItemsView = ({
             <Grid
               item
               key={item.title}
+              lg={3}
+              md={4}
+              sm={6}
               style={{
                 display: 'flex',
               }}
+              xs={12}
             >
               <Item data={item} />
             </Grid>
