@@ -8,13 +8,13 @@ import { BeerItems } from './components/BeerItems/BeerItems';
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Container>
         <Header />
 
         <BeerItems />
       </Container>
-    </div>
+    </>
   );
 }
 

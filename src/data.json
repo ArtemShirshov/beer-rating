@@ -14,22 +14,16 @@
       "rating": "7.5",
       "property": [
         {
-          "bitterness": {
-            "value": "true",
-            "level": "easy"
-          }
+          "key": "bitterness",
+          "level": "1"
         },
         {
-          "hangover": {
-            "value": "true",
-            "level": "easy"
-          }
+          "key": "hangover",
+          "level": "2"
         },
         {
-          "lightness": {
-            "value": "true",
-            "level": "easy"
-          }
+          "key": "lightness",
+          "level": "4"
         }
       ]
     },
@@ -44,7 +38,21 @@
       "fortress": "5.5",
       "volume": "500",
       "note": "Лучшее пиво, которое я пил. Легкое, без горчинки. Полное отсуствие похмелья.",
-      "rating": "10"
+      "rating": "10",
+      "property": [
+        {
+          "key": "bitterness",
+          "level": "0"
+        },
+        {
+          "key": "hangover",
+          "level": "0"
+        },
+        {
+          "key": "lightness",
+          "level": "5"
+        }
+      ]
     },
     {
       "title": "Franziskaner Hefe-Weissbier",
@@ -56,7 +64,21 @@
       "fortress": "5.4",
       "volume": "500",
       "note": "Горькое тяжелое. Сильное похмелье.",
-      "rating": "4"
+      "rating": "4",
+      "property": [
+        {
+          "key": "bitterness",
+          "level": "4"
+        },
+        {
+          "key": "hangover",
+          "level": "5"
+        },
+        {
+          "key": "lightness",
+          "level": "0"
+        }
+      ]
     },
     {
       "title": "Corona Extra",
@@ -68,7 +90,21 @@
       "fortress": "4.5",
       "volume": "330",
       "note": "Пиво на каждый день. Легкое, без горчинки. Полное отсуствие похмелья.",
-      "rating": "9.5"
+      "rating": "9.5",
+      "property": [
+        {
+          "key": "bitterness",
+          "level": "0"
+        },
+        {
+          "key": "hangover",
+          "level": "1"
+        },
+        {
+          "key": "lightness",
+          "level": "4"
+        }
+      ]
     }
   ]
 }
