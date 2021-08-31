@@ -1,5 +1,5 @@
 import React, { useCallback, useMemo, useState } from 'react';
-import { BeerColor, Beer } from 'Icons';
+import { Beer, BeerColor } from 'Icons';
 
 import { useStyles } from './Header.styles';
 
