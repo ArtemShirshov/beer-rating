@@ -105,6 +105,33 @@
           "level": "4"
         }
       ]
+    },
+    {
+      "title": "švyturys Gintarinis",
+      "img": "svyturysGintarinis.jpeg",
+      "description": ["LIGHT","FILTERED"],
+      "region": {
+        "country": "Литва",
+        "city": "Клайнпеда"
+      },
+      "fortress": "4.6",
+      "volume": "568",
+      "note": "Горькое. Допивалось с трудом.",
+      "rating": "4",
+      "property": [
+        {
+          "key": "bitterness",
+          "level": "3"
+        },
+        {
+          "key": "hangover",
+          "level": "4"
+        },
+        {
+          "key": "lightness",
+          "level": "0"
+        }
+      ]
     }
   ]
 }
