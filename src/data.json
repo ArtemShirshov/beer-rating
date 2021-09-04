@@ -39,6 +39,12 @@
       "volume": "500",
       "note": "Лучшее пиво, которое я пил. Легкое, без горчинки. Полное отсуствие похмелья.",
       "rating": "10",
+      "badges": [
+        {
+          "key": "recommendation",
+          "value": "yes"
+        }
+      ],
       "property": [
         {
           "key": "bitterness",
@@ -64,7 +70,13 @@
       "fortress": "5.4",
       "volume": "500",
       "note": "Горькое тяжелое. Сильное похмелье.",
-      "rating": "4",
+      "rating": "3",
+      "badges": [
+        {
+          "key": "recommendation",
+          "value": "no"
+        }
+      ],
       "property": [
         {
           "key": "bitterness",
@@ -91,6 +103,12 @@
       "volume": "330",
       "note": "Пиво на каждый день. Легкое, без горчинки. Полное отсуствие похмелья.",
       "rating": "9.5",
+      "badges": [
+        {
+          "key": "recommendation",
+          "value": "yes"
+        }
+      ],
       "property": [
         {
           "key": "bitterness",
@@ -118,6 +136,12 @@
       "volume": "568",
       "note": "Горькое. Допивалось с трудом.",
       "rating": "4",
+      "badges": [
+        {
+          "key": "recommendation",
+          "value": "no"
+        }
+      ],
       "property": [
         {
           "key": "bitterness",
@@ -171,6 +195,12 @@
       "volume": "500",
       "note": "Легкое пиво. Очень слабый вкус, кажется разбавленным. Без горчинки.",
       "rating": "4",
+      "badges": [
+        {
+          "key": "recommendation",
+          "value": "no"
+        }
+      ],
       "property": [
         {
           "key": "bitterness",

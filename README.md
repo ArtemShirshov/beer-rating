@@ -20,6 +20,25 @@
 }
 ```
 
+## badges
+
+`recommendation` — Выпил бы я это пиво еще раз.
+
+`value` = "yes" | "no"
+
+```json
+{
+  ...
+  "badges": [
+    {
+      "key": "recommendation",
+      "value": "no"
+    }
+  ],
+  ...
+}
+```
+
 ## property
 
 `bitterness` — На сколько горькое пиво.

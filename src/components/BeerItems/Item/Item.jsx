@@ -11,6 +11,7 @@ import { useStyles } from './Item.styles';
 import { Rating } from './Rating/Rating';
 import { PropertyRating } from './PropertyRating/PropertyRating';
 import { descriptionEnum } from './Item.constants';
+import { Badges } from './Badges/Badges';
 
 export const Item = ({
   data: {
@@ -23,6 +24,7 @@ export const Item = ({
     description,
     rating,
     property,
+    badges,
   },
 }) => {
   const classes = useStyles();
@@ -35,6 +37,8 @@ export const Item = ({
 
   return (
     <Card className={classes.root}>
+      <Badges badges={badges} />
+
       <CardMedia
         className={classes.media}
         image={`static/images/${img}`}
