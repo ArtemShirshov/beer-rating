@@ -132,6 +132,59 @@
           "level": "0"
         }
       ]
+    },
+    {
+      "title": "Vilkmerges Šviesusis",
+      "img": "vilkmergesSviesusis.jpeg",
+      "description": ["LIGHT","FILTERED"],
+      "region": {
+        "country": "Литва"
+      },
+      "fortress": "5.6",
+      "volume": "410",
+      "note": "Легкое пиво. С оттенками фруктов и мёда и освежающим сладковатым вкусом с лёгкой горечью.",
+      "rating": "6",
+      "property": [
+        {
+          "key": "bitterness",
+          "level": "1"
+        },
+        {
+          "key": "hangover",
+          "level": "1"
+        },
+        {
+          "key": "lightness",
+          "level": "4"
+        }
+      ]
+    },
+    {
+      "title": "Donner Premium",
+      "img": "donnerPremium.jpeg",
+      "description": ["LIGHT","FILTERED"],
+      "region": {
+        "country": "Польша",
+        "city": "Варшава"
+      },
+      "fortress": "4.0",
+      "volume": "500",
+      "note": "Легкое пиво. Очень слабый вкус, кажется разбавленным. Без горчинки.",
+      "rating": "4",
+      "property": [
+        {
+          "key": "bitterness",
+          "level": "0"
+        },
+        {
+          "key": "hangover",
+          "level": "1"
+        },
+        {
+          "key": "lightness",
+          "level": "4"
+        }
+      ]
     }
   ]
 }
