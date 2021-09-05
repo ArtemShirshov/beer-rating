@@ -167,7 +167,7 @@
       "fortress": "5.6",
       "volume": "410",
       "note": "Легкое пиво. С оттенками фруктов и мёда и освежающим сладковатым вкусом с лёгкой горечью.",
-      "rating": "6",
+      "rating": "5.5",
       "property": [
         {
           "key": "bitterness",
@@ -213,6 +213,32 @@
         {
           "key": "lightness",
           "level": "4"
+        }
+      ]
+    },
+    {
+      "title": "Grolsch Premium Pilsner",
+      "img": "grolschPremiumPilsner.jpg",
+      "description": ["LIGHT","FILTERED"],
+      "region": {
+        "country": "Нидерланды"
+      },
+      "fortress": "5.0",
+      "volume": "450",
+      "note": "Легкое пиво. Легкая горчинка. Сладковатый вкус. Пьётся легко. Бутылка выглядит лучше, чем содержимое внутри.",
+      "rating": "6",
+      "property": [
+        {
+          "key": "bitterness",
+          "level": "1"
+        },
+        {
+          "key": "hangover",
+          "level": "1"
+        },
+        {
+          "key": "lightness",
+          "level": "3"
         }
       ]
     }
