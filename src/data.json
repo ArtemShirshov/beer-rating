@@ -4,7 +4,7 @@
       "title": "Svyturys EKSTRA 1784",
       "brand": "Svyturys",
       "name": "EKSTRA 1784",
-      "img": "ekstra.jpeg",
+      "img": "ekstra.jpg",
       "description": ["LIGHT","FILTERED"],
       "region": {
         "city": "Клайпеда",
@@ -33,7 +33,7 @@
       "title": "Weltenburger Kloster, Anno 1050",
       "brand": "Anno 1050",
       "name": "Weltenburger Kloster",
-      "img": "weltenburgerKloster.jpeg",
+      "img": "weltenburgerKloster.jpg",
       "description": ["LIGHT","FILTERED"],
       "region": {
         "city": "Бавария",
@@ -68,7 +68,7 @@
       "title": "Franziskaner Hefe-Weissbier",
       "brand": "Franziskaner",
       "name": "Hefe-Weissbier",
-      "img": "benediktinerWeissbier.jpeg",
+      "img": "benediktinerWeissbier.jpg",
       "description": ["LIGHT", "UNFILTERED"],
       "region": {
         "country": "Германия"
@@ -102,7 +102,7 @@
       "title": "Corona Extra",
       "brand": "Corona",
       "name": "Extra",
-      "img": "coronaExtra.jpeg",
+      "img": "coronaExtra.jpg",
       "description": ["LIGHT","FILTERED"],
       "region": {
         "country": "Мексика"
@@ -136,7 +136,7 @@
       "title": "Svyturys Gintarinis",
       "brand": "Svyturys",
       "name": "Gintarinis",
-      "img": "svyturysGintarinis.jpeg",
+      "img": "svyturysGintarinis.jpg",
       "description": ["LIGHT","FILTERED"],
       "region": {
         "country": "Литва",
@@ -171,7 +171,7 @@
       "title": "Vilkmerges Šviesusis",
       "brand": "Vilkmerges",
       "name": "Šviesusis",
-      "img": "vilkmergesSviesusis.jpeg",
+      "img": "vilkmergesSviesusis.jpg",
       "description": ["LIGHT","FILTERED"],
       "region": {
         "country": "Литва"
@@ -199,7 +199,7 @@
       "title": "Donner Premium",
       "brand": "Donner",
       "name": "Premium",
-      "img": "donnerPremium.jpeg",
+      "img": "donnerPremium.jpg",
       "description": ["LIGHT","FILTERED"],
       "region": {
         "country": "Польша",

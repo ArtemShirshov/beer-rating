@@ -1,6 +1,19 @@
 # Beer rating
 [![Netlify Status](https://api.netlify.com/api/v1/badges/8b6ac487-319b-4d11-9499-4ea81e863e06/deploy-status)](https://app.netlify.com/sites/beer-rating/deploys)
 
+## Добавление изображаний
+
+### 1 шаг
+Скопировать в папку public/static/images изображения. Название должно быть в camelCase.
+
+### 2 шаг
+Выполнить команду:
+
+```bash
+mogrify -format jpg *.jpeg; rm *.jpeg; cp ./*.jpg ./min; cd min; mogrify -resize 400 *.jpg
+```
+
+
 ## Основные свойства
 
 ```json

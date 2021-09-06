@@ -41,7 +41,7 @@ export const Item = ({
 
       <CardMedia
         className={classes.media}
-        image={`static/images/${img}`}
+        image={`static/images/min/${img}`}
         title={title}
       />
 
