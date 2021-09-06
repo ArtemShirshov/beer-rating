@@ -5,7 +5,9 @@
 
 ```json
 {
-  "title": "Название",
+  "title": "Заголовок",
+  "brand": "Название бренда",
+  "name": "Название пива",
   "img": "Изображение",
   "description": ["FILTERED", "LIGHT", "DARK", "UNFILTERED"],
   "region": {

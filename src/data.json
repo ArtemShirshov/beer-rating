@@ -1,7 +1,9 @@
 {
   "items": [
     {
-      "title": "EKSTRA 1784",
+      "title": "Svyturys EKSTRA 1784",
+      "brand": "Svyturys",
+      "name": "EKSTRA 1784",
       "img": "ekstra.jpeg",
       "description": ["LIGHT","FILTERED"],
       "region": {
@@ -29,6 +31,8 @@
     },
     {
       "title": "Weltenburger Kloster, Anno 1050",
+      "brand": "Anno 1050",
+      "name": "Weltenburger Kloster",
       "img": "weltenburgerKloster.jpeg",
       "description": ["LIGHT","FILTERED"],
       "region": {
@@ -62,6 +66,8 @@
     },
     {
       "title": "Franziskaner Hefe-Weissbier",
+      "brand": "Franziskaner",
+      "name": "Hefe-Weissbier",
       "img": "benediktinerWeissbier.jpeg",
       "description": ["LIGHT", "UNFILTERED"],
       "region": {
@@ -94,6 +100,8 @@
     },
     {
       "title": "Corona Extra",
+      "brand": "Corona",
+      "name": "Extra",
       "img": "coronaExtra.jpeg",
       "description": ["LIGHT","FILTERED"],
       "region": {
@@ -125,7 +133,9 @@
       ]
     },
     {
-      "title": "švyturys Gintarinis",
+      "title": "Svyturys Gintarinis",
+      "brand": "Svyturys",
+      "name": "Gintarinis",
       "img": "svyturysGintarinis.jpeg",
       "description": ["LIGHT","FILTERED"],
       "region": {
@@ -159,6 +169,8 @@
     },
     {
       "title": "Vilkmerges Šviesusis",
+      "brand": "Vilkmerges",
+      "name": "Šviesusis",
       "img": "vilkmergesSviesusis.jpeg",
       "description": ["LIGHT","FILTERED"],
       "region": {
@@ -185,6 +197,8 @@
     },
     {
       "title": "Donner Premium",
+      "brand": "Donner",
+      "name": "Premium",
       "img": "donnerPremium.jpeg",
       "description": ["LIGHT","FILTERED"],
       "region": {
@@ -218,6 +232,8 @@
     },
     {
       "title": "Grolsch Premium Pilsner",
+      "brand": "Grolsch",
+      "name": "Premium Pilsner",
       "img": "grolschPremiumPilsner.jpg",
       "description": ["LIGHT","FILTERED"],
       "region": {
@@ -239,6 +255,40 @@
         {
           "key": "lightness",
           "level": "3"
+        }
+      ]
+    },
+    {
+      "title": "Svyturys Baltas",
+      "brand": "Svyturys",
+      "name": "Baltas",
+      "img": "svyturysBaltas.png",
+      "description": ["LIGHT","UNFILTERED"],
+      "region": {
+        "country": "Литва"
+      },
+      "fortress": "6.0",
+      "volume": "568",
+      "note": "Легкое пиво. Сладковатый вкус. Пьётся легко.",
+      "rating": "7.5",
+      "badges": [
+        {
+          "key": "recommendation",
+          "value": "yes"
+        }
+      ],
+      "property": [
+        {
+          "key": "bitterness",
+          "level": "1"
+        },
+        {
+          "key": "hangover",
+          "level": "1"
+        },
+        {
+          "key": "lightness",
+          "level": "4"
         }
       ]
     }
