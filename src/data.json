@@ -291,6 +291,39 @@
           "level": "4"
         }
       ]
+    },
+    {
+      "title": "Pilsner Urquell",
+      "brand": "Pilsner Urquell",
+      "img": "pilsnerUrquell.jpg",
+      "description": ["LIGHT","FILTERED"],
+      "region": {
+        "country": "Чехия"
+      },
+      "fortress": "4.4",
+      "volume": "500",
+      "note": "Легкое пиво. Сладковатый вкус. Легкая горчинка, которая не портит вкус.",
+      "rating": "8.5",
+      "badges": [
+        {
+          "key": "recommendation",
+          "value": "yes"
+        }
+      ],
+      "property": [
+        {
+          "key": "bitterness",
+          "level": "0"
+        },
+        {
+          "key": "hangover",
+          "level": "1"
+        },
+        {
+          "key": "lightness",
+          "level": "5"
+        }
+      ]
     }
   ]
 }
