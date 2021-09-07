@@ -16,8 +16,10 @@ export const BeerList = () => {
     return sortingItems(sortSelected, search);
   }, [search, sortSelected]);
 
-  const handleChange = (event) => {
-    setSort(event.target.value);
+  const handleChangeSorting = (value) => {
+    onClearSorting();
+
+    setSort(value);
   };
 
   const handleChangeSearch = (value, isPush = true) => {
@@ -45,7 +47,7 @@ export const BeerList = () => {
   });
 
   return React.createElement(BeerListView, {
-    handleChange,
+    handleChangeSorting,
     handleChangeSearch,
     onClearSorting,
     sortSelected,

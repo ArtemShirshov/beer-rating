@@ -20,7 +20,7 @@ import { useStyles } from './BeerList.styles';
 import { EmptyList } from './EmptyList/EmptyList';
 
 export const BeerListView = ({
-  handleChange,
+  handleChangeSorting,
   handleChangeSearch,
   onClearSorting,
   sortSelected,
@@ -40,7 +40,7 @@ export const BeerListView = ({
                 defaultValue={SORTING.SCORE}
                 label="Сортировка"
                 labelId="sorting-select"
-                onChange={handleChange}
+                onChange={(event) => handleChangeSorting(event.target.value)}
                 value={sortSelected}
                 variant="outlined"
               >
