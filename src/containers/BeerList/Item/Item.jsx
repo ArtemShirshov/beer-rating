@@ -41,7 +41,7 @@ export const Item = ({
   }, [description]);
 
   const onClickShare = useCallback(() => {
-    const url = `${window.location.origin}/?s=${title}`;
+    const url = `${window.location.origin}/?s=${encodeURIComponent(title)}`;
 
     navigator.clipboard.writeText(url).then(
       function () {
