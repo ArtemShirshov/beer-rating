@@ -45,7 +45,7 @@ export const Item = ({
 
     navigator.clipboard.writeText(url).then(
       function () {
-        toast.success('Ссылка скопированна');
+        toast.success('Ссылка скопирована');
       },
       function (err) {
         console.error('Async: Could not copy text: ', err);
