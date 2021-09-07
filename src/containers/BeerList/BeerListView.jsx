@@ -14,12 +14,12 @@ import Chip from '@material-ui/core/Chip';
 
 import { declOfNum } from 'utils/DeclOfNum';
 
-import { SORTING } from './BeerItems.constats';
+import { SORTING } from './BeerList.constats';
 import { Item } from './Item/Item';
-import { useStyles } from './BeerItems.styles';
+import { useStyles } from './BeerList.styles';
 import { EmptyList } from './EmptyList/EmptyList';
 
-export const BeerItemsView = ({
+export const BeerListView = ({
   handleChange,
   handleChangeSearch,
   onClearSorting,
@@ -55,7 +55,7 @@ export const BeerItemsView = ({
             <TextField
               id="standard-secondary"
               label="Поиск"
-              onChange={handleChangeSearch}
+              onChange={(event) => handleChangeSearch(event.target.value)}
               value={search}
               variant="outlined"
             />

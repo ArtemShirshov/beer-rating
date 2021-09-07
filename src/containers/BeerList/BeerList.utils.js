@@ -1,6 +1,6 @@
 import data from 'data.json';
 
-import { SORTING } from './BeerItems.constats';
+import { SORTING } from './BeerList.constats';
 
 export const sortingItems = (sort, search) => {
   switch (sort) {

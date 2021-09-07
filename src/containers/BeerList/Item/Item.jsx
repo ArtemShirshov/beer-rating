@@ -1,11 +1,16 @@
-import React, { useMemo } from 'react';
+import React, { useCallback, useMemo } from 'react';
 import Card from '@material-ui/core/Card';
+import Grid from '@material-ui/core/Grid';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
+import CardActions from '@material-ui/core/CardActions';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
+import IconButton from '@material-ui/core/IconButton';
+import ShareIcon from '@material-ui/icons/Share';
 
 import { arrayToString } from 'utils/ArrayToString';
+import { toast } from 'components/Toast';
 
 import { useStyles } from './Item.styles';
 import { Rating } from './Rating/Rating';
@@ -35,6 +40,19 @@ export const Item = ({
     return arrayToString(descriptionArray, true);
   }, [description]);
 
+  const onClickShare = useCallback(() => {
+    const url = `${window.location.origin}/?s=${title}`;
+
+    navigator.clipboard.writeText(url).then(
+      function () {
+        toast.success('Ссылка скопированна');
+      },
+      function (err) {
+        console.error('Async: Could not copy text: ', err);
+      }
+    );
+  }, [title]);
+
   return (
     <Card className={classes.root}>
       <Badges badges={badges} />
@@ -45,7 +63,7 @@ export const Item = ({
         title={title}
       />
 
-      <CardContent>
+      <CardContent className={classes.cardContent}>
         <Typography component="h2" variant="h5">
           {title}
         </Typography>
@@ -90,6 +108,16 @@ export const Item = ({
         <Typography color="textSecondary" component="p" variant="body2">
           <b>Регион:</b> {arrayToString([region.country, region.city])}
         </Typography>
+
+        <CardActions className={classes.cardActions}>
+          <Grid container justifyContent="flex-end">
+            <Grid item>
+              <IconButton onClick={onClickShare}>
+                <ShareIcon fontSize="small" />
+              </IconButton>
+            </Grid>
+          </Grid>
+        </CardActions>
       </CardContent>
     </Card>
   );

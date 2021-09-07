@@ -5,7 +5,7 @@
       "brand": "Svyturys",
       "name": "EKSTRA 1784",
       "img": "ekstra.jpg",
-      "description": ["LIGHT","FILTERED"],
+      "description": ["LIGHT", "FILTERED"],
       "region": {
         "city": "Клайпеда",
         "country": "Литва"
@@ -34,7 +34,7 @@
       "brand": "Anno 1050",
       "name": "Weltenburger Kloster",
       "img": "weltenburgerKloster.jpg",
-      "description": ["LIGHT","FILTERED"],
+      "description": ["LIGHT", "FILTERED"],
       "region": {
         "city": "Бавария",
         "country": "Германия"
@@ -103,7 +103,7 @@
       "brand": "Corona",
       "name": "Extra",
       "img": "coronaExtra.jpg",
-      "description": ["LIGHT","FILTERED"],
+      "description": ["LIGHT", "FILTERED"],
       "region": {
         "country": "Мексика"
       },
@@ -137,7 +137,7 @@
       "brand": "Svyturys",
       "name": "Gintarinis",
       "img": "svyturysGintarinis.jpg",
-      "description": ["LIGHT","FILTERED"],
+      "description": ["LIGHT", "FILTERED"],
       "region": {
         "country": "Литва",
         "city": "Клайнпеда"
@@ -172,7 +172,7 @@
       "brand": "Vilkmerges",
       "name": "Šviesusis",
       "img": "vilkmergesSviesusis.jpg",
-      "description": ["LIGHT","FILTERED"],
+      "description": ["LIGHT", "FILTERED"],
       "region": {
         "country": "Литва"
       },
@@ -200,7 +200,7 @@
       "brand": "Donner",
       "name": "Premium",
       "img": "donnerPremium.jpg",
-      "description": ["LIGHT","FILTERED"],
+      "description": ["LIGHT", "FILTERED"],
       "region": {
         "country": "Польша",
         "city": "Варшава"
@@ -235,7 +235,7 @@
       "brand": "Grolsch",
       "name": "Premium Pilsner",
       "img": "grolschPremiumPilsner.jpg",
-      "description": ["LIGHT","FILTERED"],
+      "description": ["LIGHT", "FILTERED"],
       "region": {
         "country": "Нидерланды"
       },
@@ -263,7 +263,7 @@
       "brand": "Svyturys",
       "name": "Baltas",
       "img": "svyturysBaltas.jpg",
-      "description": ["LIGHT","UNFILTERED"],
+      "description": ["LIGHT", "UNFILTERED"],
       "region": {
         "country": "Литва"
       },
@@ -296,7 +296,7 @@
       "title": "Pilsner Urquell",
       "brand": "Pilsner Urquell",
       "img": "pilsnerUrquell.jpg",
-      "description": ["LIGHT","FILTERED"],
+      "description": ["LIGHT", "FILTERED"],
       "region": {
         "country": "Чехия"
       },
