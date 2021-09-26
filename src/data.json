@@ -324,6 +324,34 @@
           "level": "5"
         }
       ]
+    },
+    {
+      "title": "Heineken",
+      "brand": "Heineken",
+      "img": "heineken.jpg",
+      "description": ["LIGHT", "FILTERED"],
+      "region": {
+        "country": "Россия",
+        "city": "Санкт-Петербург"
+      },
+      "fortress": "5",
+      "volume": "500",
+      "note": "Легкое пиво. Сладковатый вкус. Легкая горчинка. Послевкусие с горчинкой.",
+      "rating": "6.5",
+      "property": [
+        {
+          "key": "bitterness",
+          "level": "1"
+        },
+        {
+          "key": "hangover",
+          "level": "1"
+        },
+        {
+          "key": "lightness",
+          "level": "4"
+        }
+      ]
     }
   ]
 }
