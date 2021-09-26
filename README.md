@@ -1,7 +1,9 @@
-# Beer rating
+# 🍺 [Beer rating](https://beer-rating.netlify.app)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/8b6ac487-319b-4d11-9499-4ea81e863e06/deploy-status)](https://app.netlify.com/sites/beer-rating/deploys)
 
-## Добавление изображаний
+[Посмотреть сайт](https://beer-rating.netlify.app)
+
+## Добавление изображений
 
 ### 1 шаг
 Скопировать в папку public/static/images изображения. Название должно быть в camelCase.
@@ -31,11 +33,10 @@ mogrify -format jpg *.jpeg; rm *.jpeg; cp ./*.jpg ./min; cd min; mogrify -resize
   "volume": "Объем",
   "note": "Заметка",
   "rating": "Рейтинг по 10 больной шкале с шагом в 0.5",
-  ...
 }
 ```
 
-## badges
+### badges
 
 `recommendation` — Выпил бы я это пиво еще раз.
 
@@ -43,18 +44,16 @@ mogrify -format jpg *.jpeg; rm *.jpeg; cp ./*.jpg ./min; cd min; mogrify -resize
 
 ```json
 {
-  ...
   "badges": [
     {
       "key": "recommendation",
       "value": "no"
     }
   ],
-  ...
 }
 ```
 
-## property
+### property
 
 `bitterness` — На сколько горькое пиво.
 
@@ -66,7 +65,6 @@ mogrify -format jpg *.jpeg; rm *.jpeg; cp ./*.jpg ./min; cd min; mogrify -resize
 
 ```json
 {
-  ...
   "property": [
     {
       "key": "bitterness",
